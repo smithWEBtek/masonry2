@@ -1,0 +1,38 @@
+html {
+  background: rgb(221, 211, 211);
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
+.content-container {
+  column-count: 3;
+  width: 1200;
+  /* column-gap: 1rem; */
+  margin-left: 100px;
+  /* height: 13350px; */
+}
+ 
+.content-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  height: 8600px;
+}
+
+.image-item1 {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.image-item2 {
+   width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
